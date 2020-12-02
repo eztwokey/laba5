@@ -1,4 +1,5 @@
-def fun(a, b):
+if __name__ == '__main__':
+ def fun(a, b):
     res = 0
     for x, y in zip(a, b):
         if x != y:
